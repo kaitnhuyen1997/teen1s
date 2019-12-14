@@ -9,9 +9,8 @@ body {
   font-family: "Quicksand", sans-serif;
   font-size: 1em;
 }
-.container-gallery {
+.container {
   max-width: 1200px;
-  margin: auto;
 }
 // Menu-top
 nav.navbar {
@@ -416,6 +415,7 @@ section.tag-hot {
 }
 
 // Responsive
+
 @media screen and (max-width: 992px) {
   //menu-top
   nav.navbar {
