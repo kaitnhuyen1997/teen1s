@@ -1,0 +1,139 @@
+// Set color
+$bg-light: #ffffff26;
+$bg-light-hover: #ffffff42;
+$bg-white: #fff;
+$bg-dark: #000;
+$bg-red-pink: #ff5f50;
+
+$color-light: #ffffff26;
+$color-light-hover: #ffffff42;
+$color-white: #fff;
+$color-dark: #000;
+$color-red-pink: #ff5f50;
+
+//set padding margin
+@mixin set-p($size) {
+  padding: $size;
+}
+@mixin set-py($size) {
+  padding-top: $size;
+  padding-bottom: $size;
+}
+
+@mixin set-pt($size) {
+  padding-top: $size;
+}
+
+@mixin set-pb($size) {
+  padding-bottom: $size;
+}
+.p {
+  &-30 {
+    @include set-p(30px);
+  }
+  &-60 {
+    @include set-p(60px);
+  }
+  &-90 {
+    @include set-p(90px);
+  }
+}
+.py {
+  &-30 {
+    @include set-py(30px);
+  }
+  &-60 {
+    @include set-py(60px);
+  }
+  &-90 {
+    @include set-py(90px);
+  }
+}
+
+.pt {
+  &-30 {
+    @include set-pt(30px);
+  }
+  &-60 {
+    @include set-pt(60px);
+  }
+  &-90 {
+    @include set-pt(90px);
+  }
+}
+
+.pb {
+  &-30 {
+    @include set-pb(30px);
+  }
+  &-60 {
+    @include set-pb(60px);
+  }
+  &-90 {
+    @include set-pb(90px);
+  }
+}
+
+//Set margin
+@mixin set-m($size) {
+  margin: $size;
+}
+@mixin set-my($size) {
+  margin-top: $size;
+  margin-bottom: $size;
+}
+
+@mixin set-mt($size) {
+  margin-top: $size;
+}
+
+@mixin set-mb($size) {
+  margin-bottom: $size;
+}
+
+.m {
+  &-30 {
+    @include set-m(30px);
+  }
+  &-60 {
+    @include set-m(60px);
+  }
+  &-90 {
+    @include set-m(90px);
+  }
+}
+.my {
+  &-30 {
+    @include set-my(30px);
+  }
+  &-60 {
+    @include set-my(60px);
+  }
+  &-90 {
+    @include set-my(90px);
+  }
+}
+
+.mt {
+  &-30 {
+    @include set-mt(30px);
+  }
+  &-60 {
+    @include set-mt(60px);
+  }
+  &-90 {
+    @include set-mt(90px);
+  }
+}
+
+.mb {
+  &-30 {
+    @include set-mb(30px);
+  }
+  &-60 {
+    @include set-mb(60px);
+  }
+  &-90 {
+    @include set-mb(90px);
+  }
+}
