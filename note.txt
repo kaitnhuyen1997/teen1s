@@ -267,3 +267,192 @@ section.post-gallery .post-item:nth-child(2n) {
 .post-block:hover .tag-list .tag-item {
     background-color: #ff5f50;
 }
+
+///
+
+section.post-gallery .post-block .tag-list {
+    font-size: 12px;
+
+}
+
+section.post-gallery .post-block .inner-content {
+    padding: 1em 0.5em;
+}
+
+section.post-gallery .post-block .icon {
+    right: 0.5em;
+    top: 0.5em;
+}
+
+section.post-gallery .post-block .icon.icon-video {
+    top: unset;
+    bottom: 0.5em;
+}
+
+
+section.post-gallery .post-block .tag-list .tag-item {
+    padding: 0.4em 0.5em;
+}
+
+section.post-gallery .post-block .inner-content .title {
+    font-size: 16px;
+    margin-bottom: 0;
+}
+
+section.post-gallery .post-block .inner-content span.author {
+    font-size: 10px;
+    margin-right: 0.2em;
+}
+
+section.post-gallery .post-block .inner-content span.time {
+    font-size: 8px;
+}
+
+
+section.post-gallery .post-item.post-item-large .post-block .inner-content .title {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+
+///
+
+section.post-gallery .post-block .tag-list {
+    font-size: 12px;
+
+}
+
+section.post-gallery .post-block .inner-content {
+    padding: 1em 0.5em;
+}
+
+section.post-gallery .post-block .icon {
+    right: 0.5em;
+    top: 0.5em;
+}
+
+section.post-gallery .post-block .icon.icon-video {
+    top: unset;
+    bottom: 0.5em;
+    width: 2.25em;
+    height: 2.25em;
+}
+
+
+section.post-gallery .post-block .tag-list .tag-item {
+    padding: 0.4em 0.5em;
+}
+
+section.post-gallery .post-block .inner-content .title {
+    font-size: 16px;
+    margin-bottom: 0;
+}
+
+section.post-gallery .post-block .inner-content span.author {
+    font-size: 10px;
+    margin-right: 0.2em;
+}
+
+section.post-gallery .post-block .inner-content span.time {
+    font-size: 8px;
+}
+
+
+section.post-gallery .post-item.post-item-large .post-block .inner-content .title {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+section.post-gallery .post-item.post-item-large {
+    height: 100vw;
+}
+
+section.post-gallery .post-item.post-item-medium {
+    height: 100vw;
+}
+
+section.post-gallery .post-item {
+    height: 50vw;
+}
+
+section.post-gallery .post-block .icon.icon-video svg {
+    width: 36px;
+    height: 36px;
+}
+
+section.post-gallery .post-block .icon .icon-hot, section.post-gallery .post-block .icon .icon-trend {
+    height: 2.25em;
+    background-col;
+    width: 2em;
+    height: 2em;
+    padding: 0.1em;
+}
+
+section.post-gallery .post-block .icon .icon-hot svg, section.post-gallery .post-block .icon .icon-trend svg {
+    width: 18px;
+    height: 18px;
+}
+
+section.post-gallery .post-block .icon .icon-trend svg {
+     width: 20px;
+}
+
+////
+a.block-post {
+    display: inline-block;
+}
+
+section.section-main {
+    width: 67%;
+}
+
+.post-thumbnail.d-inline-block {
+    width: 40%;
+    height: 200px;
+    float: left;
+}
+
+.content {
+    display: inline-block;
+    width: 60%;
+    padding: 1em 1.5em;
+    color: #333;
+}
+
+span.author img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-right: 0.4em;
+}
+
+span.author {
+    margin-right: 1em;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+a.block-post .tag-list .tag-item {
+    display: inline-block;
+    margin-left: 0.5em;
+}
+
+a.block-post .tag-list {
+    display: inline-block;
+    color: #666;
+}
+
+a.block-post h4 {
+    font-weight: bold;
+    font-size: 28px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+
+.block-post .icon {
+    display: inline-block;
+}
+
+.block-post span.time {
+    font-size: 14px;
+}

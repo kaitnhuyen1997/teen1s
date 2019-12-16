@@ -9,9 +9,11 @@ body {
   font-family: "Quicksand", sans-serif;
   font-size: 1em;
 }
-.container {
+.container-gallery {
   max-width: 1200px;
+  margin: auto;
 }
+
 // Menu-top
 nav.navbar {
   display: flex;
@@ -300,7 +302,6 @@ section.post-gallery {
       z-index: 4;
       width: 6em;
       transition: 0.4s;
-      float: right;
 
       .icon-hot,
       .icon-trend {
@@ -313,6 +314,7 @@ section.post-gallery {
         border-radius: 2em;
         margin-left: 0.5em;
         transition: 0.4s;
+        float: right;
       }
     }
 
@@ -415,14 +417,112 @@ section.tag-hot {
 }
 
 // Responsive
+@media screen and (max-width: 1200px) {
+  // Section post-gallery
+  section.post-gallery {
+    padding-top: 56px;
+    padding-right: 0;
+    padding-left: 0;
 
+    .post-block {
+      margin: 0;
+      width: 100%;
+      height: 100%;
+    }
+  }
+
+  // Section tag-hot
+  section.tag-hot {
+    margin-top: 0;
+    font-size: 14px;
+  }
+}
 @media screen and (max-width: 992px) {
+  * {
+  }
+
   //menu-top
   nav.navbar {
     padding: 0.5em 1em;
   }
-  .container-gallery {
-    max-width: 992px;
-    margin: auto;
+}
+
+@media screen and (max-width: 375px) {
+  section.post-gallery {
+    .post-item {
+      height: 50vw;
+      .post-block {
+        .inner-content {
+          padding: 1em 0.5em;
+
+          .title {
+            font-size: 16px;
+            margin-bottom: 0;
+          }
+          span.author {
+            font-size: 10px;
+            margin-right: 0.2em;
+          }
+          span.time {
+            font-size: 8px;
+          }
+        }
+        .tag-list {
+          font-size: 12px;
+
+          .tag-item {
+            padding: 0.4em 0.5em;
+          }
+        }
+        .icon {
+          right: 0.5em;
+          top: 0.5em;
+
+          .icon-hot,
+          .icon-trend {
+            width: 2em;
+            height: 2em;
+            padding: 0.1em;
+
+            svg {
+              width: 18px;
+              height: 18px;
+            }
+          }
+          .icon-trend svg {
+            width: 20px;
+          }
+        }
+        .icon.icon-video {
+          top: unset;
+          bottom: 0.5em;
+          width: 2.25em;
+          height: 2.25em;
+
+          svg {
+            width: 36px;
+            height: 36px;
+          }
+        }
+      }
+    }
+
+    .post-item.post-item-large {
+      height: 100vw;
+
+      .post-block {
+        .inner-content {
+          padding: 1em;
+
+          .title {
+            font-size: 28px;
+            margin-bottom: 10px;
+          }
+        }
+      }
+    }
+    .post-item.post-item-medium {
+      height: 100vw;
+    }
   }
 }
