@@ -410,6 +410,7 @@ section.section-main {
     width: 40%;
     height: 200px;
     float: left;
+    position: relative;
 }
 
 .content {
@@ -434,7 +435,7 @@ span.author {
 
 a.block-post .tag-list .tag-item {
     display: inline-block;
-    margin-left: 0.5em;
+    margin-right: 0.5em;
 }
 
 a.block-post .tag-list {
@@ -446,13 +447,200 @@ a.block-post h4 {
     font-weight: bold;
     font-size: 28px;
     margin-top: 12px;
-    margin-bottom: 12px;
+    margin-bottom: 16px;
 }
 
-.block-post .icon {
+.block-post .icon.icon-video {
     display: inline-block;
+    width: 2.5em;
+    height: 2.5em;
+    position: absolute;
+    right: 0.5em;
+    bottom: 0.5em;
+    text-align: center;
+    border-radius: 2em;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 20em;
+    -webkit-transition: 0.4s;
+    transition: 0.4s;
 }
 
 .block-post span.time {
     font-size: 14px;
+}
+
+.block-post .icon.icon-video svg {
+    width: 40px;
+    height: 40px;
+}
+.block-post .content .icon {
+    display: inline-block;
+}
+
+.block-post .content .icon .icon-trend, .block-post .content .icon .icon-hot {
+    width: 36px;
+    height: 36px;
+    display: inline-block;
+}
+
+.tag-icon {
+    display: flex;
+    align-items: center;
+}
+
+///
+section.section-main a.block-post:hover .post-thumbnail {
+
+    transform: scale(0.95);
+}
+
+.post-thumbnail.d-inline-block {}
+
+section.section-main a.block-post:hover .post-thumbnail .icon.icon-video {
+    background-color: #FF5F50;
+}
+
+section.section-main a.block-post:hover .content h4 {
+    color: #ff5f50;
+}
+
+////
+a.post-large {
+    display: block;
+    width: 100%;
+    height: 400px;
+    position: relative;
+    color: #fff;
+}
+
+.post-large .inner-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(rgba(0, 0, 0, 0), black 400px);
+    opacity: 50%;
+    transition: 0.4s;
+}
+
+.post-large .inner-content {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 3;
+    width: 100%;
+    padding: 20px 30px;
+    -webkit-transition: 0.4s;
+    transition: 0.4s;
+}
+
+.post-large  .inner-content .title {
+    font-size: 28px;
+    font-weight: 600;
+    margin-bottom: 12px;
+    width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 2;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-transition: 0.4s;
+    transition: 0.4s;
+}
+.post-large:hover .inner-content .title{
+        color: #FF5F50 ;
+}
+.post-large:hover .inner-bg {
+    background: linear-gradient(rgba(0, 0, 0, 0), black 400px);
+    opacity: 100%;
+}
+
+a.post-large .icon.icon-video {
+    position: absolute;
+    right: 1em;    
+    bottom: 1em;
+    z-index: 4;
+    width: 2.5em;
+    height: 2.5em;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 20em;
+    -webkit-transition: 0.4s;
+    transition: 0.4s;
+}
+
+a.post-large .icon.icon-video svg {
+    width: 40px;
+    height: 40px;
+}
+a.post-large:hover .icon.icon-video {
+    right: 1.5em;    
+    bottom: 1.5em;
+    background-color: #FF5F50;
+}
+
+
+///
+a.post-item {
+    display: inline-block;
+    font-size: 16px;
+    color : #333;
+    transition: 0.4s;
+    text-decoration: none;
+}
+
+a.post-item .post-thumbnail {
+    position: relative;
+    width: 23%;
+    height: 100px;
+    margin-right: 30px;
+    float:left;
+}
+a.post-item .title {
+    font-weight: 600;
+    transition: 0.4s;
+}
+a.post-item .time {
+    color: #666;
+}
+
+a.post-item .post-thumbnail .icon.icon-video {
+    display: inline-block;
+    width: 2.25em;
+    height: 2.25em;
+    position: absolute;
+    right: 0.5em;
+    bottom: 0.5em;
+    text-align: center;
+    border-radius: 2em;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 20em;
+    -webkit-transition: 0.4s;
+    transition: 0.4s;
+}
+
+a.post-item .post-thumbnail .icon.icon-video svg {
+    width: 36px;
+    height: 36px;
+    
+}
+
+a.post-item:hover .title {
+ color: #ff5f50;
+}
+a.post-item:hover .post-thumbnail .icon.icon-video{
+ background: #ff5f50;
+}
+
+///
+a.btn.btn-loadmore {
+    padding: 0.8em;
+    border-radius: 2em;
+    background-color: #FF3700;
+    border: none;
+}
+
+a.btn.btn-loadmore:hover {
+    background-color: #da2f00;
 }
