@@ -644,3 +644,115 @@ a.btn.btn-loadmore {
 a.btn.btn-loadmore:hover {
     background-color: #da2f00;
 }
+
+//
+nav.navbar .nav-center ul.navbar-nav>li.nav-item>a.nav-link span {
+    font-size: 9.5px;
+}
+
+///
+.container-fluid {
+    padding-right: 16px;
+    padding-left: 16px;
+}
+
+section.section-main .list-post-main a.post-main-item {
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+
+section.tag-hot {
+    margin-bottom: 0;
+}
+
+section.section-main .list-post-main a.post-main-item .post-thumbnail {
+    height: 86px;
+}
+
+section.section-main .list-post-main a.post-main-item .content {
+    padding: 0 0 0 10px;
+}
+
+section.section-main .list-post-main a.post-main-item .content .tag-icon .tag-list {
+    font-size: 10px;
+}
+
+section.section-main .list-post-main a.post-main-item .content .tag-icon .icon .icon-trend, section.section-main .list-post-main a.post-main-item .content .tag-icon .icon .icon-hot {
+    width: 18px;
+    height: 18px;
+}
+
+section.section-main .list-post-main a.post-main-item .content .tag-icon .icon .icon-trend svg, section.section-main .list-post-main a.post-main-item .content .tag-icon .icon .icon-hot img {
+    width: 18px;
+    height: 18px;
+    vertical-align: unset;
+}
+
+section.section-main .list-post-main a.post-main-item .content h4 {
+    margin-top: 0;
+    margin-bottom: 4px;
+    font-size: 14px;
+}
+
+section.section-main .list-post-main a.post-main-item .content span.author {
+    font-size: 10px;
+    margin-right: 8px;
+}
+
+section.section-main .list-post-main a.post-main-item .content span.time {font-size: 10px;}
+
+section.section-main .list-post-main a.post-main-item .content span.author img {
+    width: 18px;
+    height: 18px;
+}
+
+section.section-main .list-post-main a.post-main-item .post-thumbnail .icon.icon-video {
+    width: 1.5em;
+    height: 1.5em;
+}
+
+section.section-main .list-post-main a.post-main-item .post-thumbnail .icon.icon-video svg {
+    width: 24px;
+    height: 24px;
+    vertical-align: unset;
+}
+
+.menu-bottom-mobile .navbar-nav {
+    flex-direction: row;
+}
+
+
+////
+section.section-main .list-post-main:nth-child(2n) {}
+
+section.section-main .list-post-main:nth-child(2n) a.post-main-item .post-thumbnail {
+    height: 199px;
+    width: 100%;
+}
+
+section.section-main .list-post-main:nth-child(2n) a.post-main-item .content
+{
+    width: 100%;
+    padding: 10px 0 0 0;
+}
+section.section-main .list-post-main:nth-child(2n) a.post-main-item {
+    border-bottom: none;
+}
+
+section.section-main .list-post-main:nth-child(2n) a.post-main-item:last-child {
+    border-bottom: 1px solid rgba(0,0,0,0.08);
+}
+
+
+section.section-main .list-post-main a.post-main-item .content .tag-icon .tag-list {
+    font-size: 10px;
+}
+
+section.section-main .list-post-main a.post-main-item .content h4 {
+    font-size: 24px;
+    margin-bottom: 8px;
+}
+
+section.section-main .list-post-main a.post-main-item:last-child {
+    border-bottom: none;
+}

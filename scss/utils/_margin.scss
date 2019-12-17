@@ -1,0 +1,46 @@
+.m {
+  &-30 {
+    @include set-m(30px);
+  }
+  &-60 {
+    @include set-m(60px);
+  }
+  &-90 {
+    @include set-m(90px);
+  }
+}
+.my {
+  &-30 {
+    @include set-my(30px);
+  }
+  &-60 {
+    @include set-my(60px);
+  }
+  &-90 {
+    @include set-my(90px);
+  }
+}
+
+.mt {
+  &-30 {
+    @include set-mt(30px);
+  }
+  &-60 {
+    @include set-mt(60px);
+  }
+  &-90 {
+    @include set-mt(90px);
+  }
+}
+
+.mb {
+  &-30 {
+    @include set-mb(30px);
+  }
+  &-60 {
+    @include set-mb(60px);
+  }
+  &-90 {
+    @include set-mb(90px);
+  }
+}

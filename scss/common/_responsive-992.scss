@@ -1,0 +1,48 @@
+@media screen and (max-width: 992px) {
+  //menu-top
+  nav.navbar {
+    padding: 0.5em 1em;
+  }
+
+  //menu-bottom-mobile
+  nav.navbar.menu-bottom-mobile {
+    padding: 0;
+
+    .nav-center ul.navbar-nav > li.nav-item > a.nav-link span {
+      font-size: 9.5px;
+    }
+  }
+
+  //.section-main
+  section.section-main {
+    .list-post-main {
+      a.post-main-item {
+        .post-thumbnail {
+          height: 160px;
+        }
+
+        .content {
+          padding: 0em 0em 0em 1.5em;
+
+          h4 {
+            font-size: 30px;
+            margin-top: 0;
+            margin-bottom: 12px;
+          }
+
+          .tag-icon .tag-list {
+            font-size: 18px;
+          }
+
+          span.author {
+            font-size: 16px;
+          }
+
+          span.time {
+            font-size: 16px;
+          }
+        }
+      }
+    }
+  }
+}

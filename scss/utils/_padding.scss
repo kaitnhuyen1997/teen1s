@@ -1,0 +1,46 @@
+.p {
+  &-30 {
+    @include set-p(30px);
+  }
+  &-60 {
+    @include set-p(60px);
+  }
+  &-90 {
+    @include set-p(90px);
+  }
+}
+.py {
+  &-30 {
+    @include set-py(30px);
+  }
+  &-60 {
+    @include set-py(60px);
+  }
+  &-90 {
+    @include set-py(90px);
+  }
+}
+
+.pt {
+  &-30 {
+    @include set-pt(30px);
+  }
+  &-60 {
+    @include set-pt(60px);
+  }
+  &-90 {
+    @include set-pt(90px);
+  }
+}
+
+.pb {
+  &-30 {
+    @include set-pb(30px);
+  }
+  &-60 {
+    @include set-pb(60px);
+  }
+  &-90 {
+    @include set-pb(90px);
+  }
+}

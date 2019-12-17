@@ -1,0 +1,28 @@
+@media screen and (max-width: 1200px) {
+  // Section post-gallery
+  section.post-gallery {
+    padding-top: 56px;
+    padding-right: 0;
+    padding-left: 0;
+
+    .post-block {
+      margin: 0;
+      width: 100%;
+      height: 100%;
+    }
+  }
+
+  // Section tag-hot
+  section.tag-hot {
+    margin-top: 0;
+    font-size: 14px;
+  }
+
+  //Section section-main
+  section.section-main .list-post-main a.post-main-item .post-thumbnail {
+    height: 200px;
+  }
+  nav.navbar.menu-bottom-mobile {
+    justify-content: center;
+  }
+}
