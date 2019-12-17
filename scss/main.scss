@@ -2,9 +2,10 @@
 
 @import "/node_modules/bootstrap/scss/bootstrap";
 
+@import "utils/fonts";
 @import "utils/padding";
 @import "utils/margin";
-@import "utils/_util";
+@import "utils/util";
 
 @import "components/_menutop";
 @import "components/_brand";
