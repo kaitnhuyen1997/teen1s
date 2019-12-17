@@ -1,9 +1,0 @@
-{
-    "version": 3,
-    "mappings": "",
-    "sources": [
-        "../common/-responsive-mw576.scss"
-    ],
-    "names": [],
-    "file": "-responsive-mw576.css"
-}
